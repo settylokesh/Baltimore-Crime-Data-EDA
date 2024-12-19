@@ -26,9 +26,3 @@ The datasets used in this analysis are:
 - [`Gun_Offenders_Registry.csv`](https://arcg.is/1K9fDH): Dataset for gun offenders registry.
 - [`Vacant_Building_Rehabs.csv`](https://arcg.is/yvWeb): Dataset for vacant building rehabs.
 
-## How to Run the Analysis
-
-1. **Clone the Repository**: Clone the repository to your local machine.
-   ```sh
-   git clone <repository-url>
-   cd Baltimore-Crime-Analysis
