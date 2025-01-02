@@ -1,9 +1,6 @@
-
 # Baltimore Crime Analysis Project
 
 This project analyzes Baltimore crime data to uncover significant trends, patterns, and insights. It integrates multiple datasets, performs comparisons across time periods, and visualizes changes in crime rates and related factors, providing actionable insights for policy-makers and law enforcement agencies.
-
-
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -16,6 +13,10 @@ This project analyzes Baltimore crime data to uncover significant trends, patter
 - [Visualizations](#visualizations)
 - [How to Run the Project](#how-to-run-the-project)
 - [Future Scope](#future-scope)
+- [Technical Details](#technical-details)
+  - [Programming Languages, Libraries, and Tools](#programming-languages-libraries-and-tools)
+  - [Project Architecture and Data Processing Pipeline](#project-architecture-and-data-processing-pipeline)
+  - [Challenges and Solutions](#challenges-and-solutions)
 
 ---
 
@@ -84,8 +85,6 @@ The datasets used in this analysis are:
 
 ---
 
-
-
 ## How to Run the Project
 
 1. Clone the repository:
@@ -110,5 +109,42 @@ The datasets used in this analysis are:
 3. **Policy Recommendations**:
    - Translate insights into actionable strategies for law enforcement.
 
+---
 
+## Technical Details
+
+### Programming Languages, Libraries, and Tools
+
+- **Programming Languages**: Python
+- **Libraries**: Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
+- **Tools**: Jupyter Notebook, Git
+
+### Project Architecture and Data Processing Pipeline
+
+1. **Data Collection**:
+   - Collected datasets from various sources including crime incidents, vacant notices, gun offenses, and vacant rehabs.
+2. **Data Cleaning**:
+   - Removed duplicates, handled missing values, and standardized data formats.
+3. **Data Integration**:
+   - Merged datasets from different years and sources to create a comprehensive dataset.
+4. **Exploratory Data Analysis (EDA)**:
+   - Performed initial analysis to understand data distributions, trends, and patterns.
+5. **Final Analysis**:
+   - Conducted detailed analysis including calculations of differences and percentage changes, and correlation analysis.
+6. **Visualization**:
+   - Created visualizations to illustrate findings and insights.
+
+### Challenges and Solutions
+
+1. **Data Quality Issues**:
+   - Challenge: Inconsistent data formats and missing values.
+   - Solution: Implemented data cleaning steps to standardize formats and handle missing values.
+
+2. **Data Integration**:
+   - Challenge: Merging datasets from different sources and years.
+   - Solution: Used unique identifiers and common fields to accurately merge datasets.
+
+3. **Analysis Complexity**:
+   - Challenge: Analyzing large datasets with multiple variables.
+   - Solution: Utilized efficient data processing techniques and libraries to handle large datasets and perform complex analyses.
 
